@@ -1,0 +1,9 @@
+{
+	FilesToRename = {
+		"EspressoSugar_Prefix.pch" = "ÇPROJECTNAMEÈ_Prefix.pch";
+	};
+	FilesToMacroExpand = (
+		"ÇPROJECTNAMEÈ_Prefix.pch"
+	);
+	Description = "This project builds a Sugar plug-in for MacRabbit's Espresso source editor.";
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Checkboxes</key>
+  <array>
+    <dict>
+      <key>Key</key>
+      <string>nothing</string>
+      <key>Title</key>
+      <string>Ignore this!</string>
+    </dict>
+  </array>
+  <key>TemplateSelection</key>
+  <dict>
+    <key></key>
+    <string>Espresso Sugar</string>
+    <key>nothing</key>
+    <string>This Folder Doesn't Exist</string>
+  </dict>
+</dict>
+</plist>
