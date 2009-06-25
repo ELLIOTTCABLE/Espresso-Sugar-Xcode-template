@@ -190,6 +190,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				PRODUCT_NAME = «PROJECTNAME»;
+				SDKROOT = macosx10.5;
 				WRAPPER_EXTENSION = sugar;
 			};
 			name = Debug;
@@ -205,6 +206,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				PRODUCT_NAME = «PROJECTNAME»;
+				SDKROOT = macosx10.5;
 				WRAPPER_EXTENSION = sugar;
 			};
 			name = Release;
