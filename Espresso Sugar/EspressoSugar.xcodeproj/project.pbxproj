@@ -16,8 +16,8 @@
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		32DBCF630370AF2F00C91783 /* «PROJECTNAME»_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "«PROJECTNAME»_Prefix.pch"; sourceTree = "<group>"; };
-		8D5B49B6048680CD000E48DA /* «PROJECTNAME».bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "«PROJECTNAME».bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32DBCF630370AF2F00C91783 /* «PROJECTNAME»_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = «PROJECTNAME»_Prefix.pch; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* «PROJECTNAME».sugar */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = «PROJECTNAME».sugar; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -43,7 +43,7 @@
 				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
 				19C28FB8FE9D52D311CA2CBB /* Products */,
 			);
-			name = "«PROJECTNAME»";
+			name = «PROJECTNAME»;
 			sourceTree = "<group>";
 		};
 		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
@@ -92,7 +92,7 @@
 		19C28FB8FE9D52D311CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D5B49B6048680CD000E48DA /* «PROJECTNAME».bundle */,
+				8D5B49B6048680CD000E48DA /* «PROJECTNAME».sugar */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,10 +120,10 @@
 			);
 			dependencies = (
 			);
-			name = "«PROJECTNAME»";
+			name = «PROJECTNAME»;
 			productInstallPath = "$(HOME)/Library/Bundles";
-			productName = "«PROJECTNAME»";
-			productReference = 8D5B49B6048680CD000E48DA /* «PROJECTNAME».bundle */;
+			productName = «PROJECTNAME»;
+			productReference = 8D5B49B6048680CD000E48DA /* «PROJECTNAME».sugar */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -186,11 +186,11 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "«PROJECTNAME»_Prefix.pch";
+				GCC_PREFIX_HEADER = «PROJECTNAME»_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				PRODUCT_NAME = "«PROJECTNAME»";
-				WRAPPER_EXTENSION = bundle;
+				PRODUCT_NAME = «PROJECTNAME»;
+				WRAPPER_EXTENSION = sugar;
 			};
 			name = Debug;
 		};
@@ -201,11 +201,11 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "«PROJECTNAME»_Prefix.pch";
+				GCC_PREFIX_HEADER = «PROJECTNAME»_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				PRODUCT_NAME = "«PROJECTNAME»";
-				WRAPPER_EXTENSION = bundle;
+				PRODUCT_NAME = «PROJECTNAME»;
+				WRAPPER_EXTENSION = sugar;
 			};
 			name = Release;
 		};
